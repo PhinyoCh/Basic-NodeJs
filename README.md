@@ -3,9 +3,18 @@
 command terminal
 
 # RunServerNode
-    node FileName    
+    node FileName  
+
+# Install Packet
+    npm i NamePacket
+    -- ex. install Packet UploadFile -- 
+        npm i formidab
 
 command code
+
+# Status Code
+        res.writeHead(404, { 'Content-Type': 'text/html' });
+        return res.end(' 404 Not Found ');
 
 # Query String
     //require
